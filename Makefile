@@ -1,2 +1,2 @@
 deploy:
-	echo "TEST_AUTHOR:$TEST_AUTHOR"
+	/bin/bash deploy.sh
