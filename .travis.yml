@@ -1,0 +1,6 @@
+deploy:
+  provider: script
+  script: make deploy
+env:
+  global:
+  - TEST_AUTHOR="%{author}"
