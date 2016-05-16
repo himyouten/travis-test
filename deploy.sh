@@ -43,7 +43,7 @@ handle_cmd_stat()
     fi
 }
 
-GITUSER=`git log HEAD^..HEAD --pretty='%aN <%aE>' | sort -u`
+GITUSER=`git log -1 --pretty='%aN <%aE>'`
 echo_red "gituser:$GITUSER"
 
 echo_red "TEST_AUTHOR:$TEST_AUTHOR"
