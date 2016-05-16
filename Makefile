@@ -1,2 +1,2 @@
 deploy:
-	/bin/bash deploy.sh
+	/bin/bash deploy.sh -v
