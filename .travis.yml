@@ -7,3 +7,4 @@ deploy:
 env:
   global:
   - TEST_AUTHOR="%{author}"
+  - VERSION="0.0.0"
