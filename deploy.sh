@@ -45,5 +45,5 @@ handle_cmd_stat()
 
 GITUSER=`git log -1 --pretty='%aN <%aE>'`
 echo_red "gituser:$GITUSER"
-
 echo_red "TEST_AUTHOR:$TEST_AUTHOR"
+echo_red "SOMVAR:$SOMEVAR"
