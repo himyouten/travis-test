@@ -5,9 +5,9 @@ deploy:
   provider: script
   script: make deploy
   on:
-  repo: himyouten/travis-test
-      all_branches: true
-      condition: "$TRAVIS_BRANCH =~ ^develop_"
+    repo: himyouten/travis-test
+    all_branches: true
+    condition: "$TRAVIS_BRANCH =~ ^develop_"
 env:
   global:
   - TEST_AUTHOR="%{author}"
